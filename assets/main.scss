@@ -184,6 +184,11 @@ h2 {
     font-size: 1rem;
 }
 
+.site-footer .p-name {
+  font-family: "EB Garamond", serif;
+  text-transform: uppercase;
+}
+
 // Custom container for third-party badges (e.g., Reedsy).
 .external-badge-container {
     margin-top: $spacing-unit;
