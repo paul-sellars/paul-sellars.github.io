@@ -3,7 +3,7 @@ layout: home
 title: Welcome
 ---
 
-My name's **Paul Sellars**. I'm a freelance publishing professional with more than twenty years' experience and clients including some of the largest publishers in the world.[^1]
+My name's **Paul Sellars**. I'm a freelance publishing professional with more than twenty years' experience, and clients including some of the largest publishers in the world.[^1]
 
 From sentence-level text revision to immaculate book design and layout, I bring exacting focus to the smallest details, ensuring every page looks as good as it reads.
 
