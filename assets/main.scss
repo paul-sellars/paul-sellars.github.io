@@ -1,0 +1,191 @@
+---
+---
+// Google Fonts.
+@import url('https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400..800;1,400..800&family=IBM+Plex+Sans:ital,wght@0,100..700;1,100..700&family=IBM+Plex+Serif:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap');
+
+// Colours.
+$text-color: rgb(16, 15, 15); // Flexoki tx.
+$background-color: rgb(255, 252, 240); // Flexoki bg.
+$brand-color: $text-color; // Used for links.
+$link-color: $brand-color;
+
+// Type.
+$base-font-family: "IBM Plex Sans", sans-serif;
+$heading-font-family: "IBM Plex Serif", serif;
+$base-font-size: 1.2em;
+$base-line-height: 1.6;
+
+// Layout.
+$content-width: 42rem;
+$spacing-unit: 2.25rem;
+$on-mobile: 37.5em; // 600px / 16px default = 37.5em
+
+// Import the theme styles.
+@import "minima";
+
+// Custom CSS rules.
+// -----------------
+
+// Faint background watermark.
+body::before {
+    background-image: url('{{ "/assets/images/logo.svg" | relative_url }}');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    content: "";
+    height: 60vw; /* Image height as % of viewport width. */
+    left: 50%;
+    opacity: 0.01; /* Very subtle watermark. */
+    pointer-events: none;
+    position: fixed;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    width: 60vw; /* Image width as % of viewport width. */
+    z-index: -1;
+}
+
+// Global link styling for body text.
+a {
+    text-decoration: underline;
+    text-underline-offset: 0.12em;
+    transition: color 0.2s ease;
+
+    &:hover {
+        text-decoration: none;
+    }
+}
+
+// Footnotes section styling.
+.footnotes {
+    border-top: 1px solid darken($grey-color-light, 10%);
+    margin-top: $spacing-unit;
+    padding-top: $spacing-unit / 2;
+    font-size: 0.9em;
+
+    hr {
+        display: none;
+    }
+}
+
+// Navigation styling and centering.
+.site-nav {
+    font-size: 1.1rem; // Smaller relative size for nav links.
+    margin-top: $spacing-unit / 4;
+    margin-bottom: $spacing-unit / 2;
+
+    .page-link {
+        text-decoration: none;
+
+        &:hover {
+            text-decoration: underline;
+        }
+    }
+
+    // Centered layout for screens above the mobile breakpoint.
+    @media screen and (min-width: $on-mobile) {
+        float: none;
+        line-height: $base-line-height; // Overrides the large theme default to tighten vertical space.
+
+        .trigger {
+            margin-right: 0;
+        }
+
+        .page-link {
+            margin: 0 10px;
+            &:last-child { margin-right: 0; }
+        }
+    }
+}
+
+// Site Header layout.
+.site-header {
+    border-bottom: 1px solid darken($grey-color-light, 10%);
+    padding-top: $spacing-unit / 2;
+}
+
+.site-header .wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.site-title-group {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: $spacing-unit / 2; // Mobile vertical space. Matches the .site-nav desktop margin.
+
+    @media screen and (min-width: $on-mobile) {
+        margin-bottom: 0; // Reset on desktop so the .site-nav provides the bottom spacing.
+    }
+}
+
+.site-title {
+    line-height: 1.1;
+    padding: ($spacing-unit / 4) 0;
+    // Mobile-first: stack logo and text vertically.
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: "EB Garamond", serif;
+    font-weight: 500;
+    letter-spacing: 0ch;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-size: 3rem; // Site title font size for *mobile*.
+    white-space: nowrap; // Prevents name and tagline from breaking onto new lines.
+
+    @media screen and (min-width: $on-mobile) {
+        flex-direction: row; // Revert to side-by-side for desktop
+        padding-bottom: $spacing-unit / 8; // Pull the navigation closer.
+    }
+
+    &:hover { text-decoration: none; }
+}
+
+.site-subtitle {
+    font-family: $base-font-family;
+    font-size: 0.475em; // Slightly increased ratio to improve tagline legibility.
+    font-weight: 600;
+    letter-spacing: 0.09ch;
+    margin-top: 0.2em;
+}
+
+.site-logo {
+    height: 2em;
+    width: auto;
+    margin-bottom: 0.125em; // Add bottom margin for *mobile*.
+
+    @media screen and (min-width: $on-mobile) {
+        margin-right: 0.5em; // Revert to right margin for *desktop*.
+        margin-bottom: 0; // Remove bottom margin for *desktop*.
+    }
+}
+
+// Normalise h1 heading sizes across page types.
+.home .page-heading, 
+.post-title {
+    font-family: $heading-font-family;
+    font-size: 2rem;
+    letter-spacing: 0.0275ch;
+}
+
+// Target h2 headings inside post/page content to override Minima defaults.
+.post-content h2,
+h2 {
+    font-family: $heading-font-family;
+    font-size: 1.5rem;
+    margin-top: $spacing-unit;
+    letter-spacing: 0.0275ch;
+}
+
+.site-footer {
+    background-color: rgb(242, 240, 229); // Flexoki bg-2.
+    font-size: 1rem;
+}
+
+// Custom container for third-party badges (e.g., Reedsy).
+.external-badge-container {
+    margin-top: $spacing-unit;
+    text-align: center;
+}
