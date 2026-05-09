@@ -8,13 +8,13 @@ permalink: /writing/
 
 <style>
   :root {
-    --background-color: rgb(242, 240, 229); /* Flexoki bg-2 */
-    --text-color: rgb(111, 110, 105); /* Flexoki tx-2 */
+    --background-color: rgb(225, 236, 235); /* Flexoki Blue 50 */
+    --text-color: rgb(52, 51, 49); /* Flexoki ui-2 */
   }
-  
+
   /* 1. Background. */
   body { background-color: var(--background-color) !important; }
-  
+
   /* 2. Hide unwanted global elements. */
   .site-nav, .site-logo, .site-subtitle, .site-footer { display: none !important; }
 
@@ -37,15 +37,15 @@ permalink: /writing/
 
   /* 5. Header specifics. */
   .site-header {
-    /* Flexoki tx-2 */
-    border-top: 1px solid var(--text-color);
-    border-bottom: 1px solid var(--text-color) !important;
+    border-top: 1px dashed var(--text-color);
+    border-bottom: 1px dashed var(--text-color) !important;
   }
   .site-title, .site-title:visited {
+    color: var(--text-color);
     font-family: "IBM Plex Serif", serif;
     font-weight: normal;
+    letter-spacing: 0.125ch;
     text-transform: capitalize;
-    color: var(--text-color) !important;
   }
 
   /* 6. Body specifics. */
@@ -55,8 +55,7 @@ permalink: /writing/
   .writing-footer { 
     margin-top: 5rem;
     padding: 2rem 0 4rem;
-    border-top: 1px solid var(--text-color);
-    /* Flexoki tx-2 */
+    border-top: 1px dashed var(--text-color);
     color: var(--text-color);
     }
   .writing-footer a {
@@ -67,7 +66,6 @@ permalink: /writing/
   .writing-footer a:hover {
     text-decoration: underline;
   }
-
   .footer-subtitle {
     font-family: "IBM Plex Sans", sans-serif;
     text-transform: uppercase;
