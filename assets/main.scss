@@ -26,24 +26,6 @@ $on-mobile: 37.5em; // 600px / 16px default = 37.5em
 // Custom CSS rules.
 // -----------------
 
-// Faint background watermark.
-body::before {
-    background-image: url('{{ "/assets/images/logo.svg" | relative_url }}');
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: contain;
-    content: "";
-    height: 60vw; /* Image height as % of viewport width. */
-    left: 50%;
-    opacity: 0.01; /* Very subtle watermark. */
-    pointer-events: none;
-    position: fixed;
-    top: 50%;
-    transform: translate(-50%, -50%);
-    width: 60vw; /* Image width as % of viewport width. */
-    z-index: -1;
-}
-
 // Global link styling for body text.
 a {
     text-decoration: underline;
