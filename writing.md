@@ -41,10 +41,11 @@ permalink: /writing/
     border-top: 1px solid var(--text-color);
     border-bottom: 1px solid var(--text-color) !important;
   }
-  .site-title {
+  .site-title, .site-title:visited {
     font-family: "IBM Plex Serif", serif;
     font-weight: normal;
     text-transform: capitalize;
+    color: var(--text-color) !important;
   }
 
   /* 6. Body specifics. */
