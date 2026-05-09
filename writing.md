@@ -24,6 +24,8 @@ permalink: /writing/
   }
   .site-header { padding: 0 !important; }
   .site-header .wrapper { min-height: 120px; }
+  .site-title-group { margin: 0 !important; }
+  .site-title { padding: 0 !important; }
 
   /* 4. Common typography. */
   .site-title, .writing-footer a, .footer-subtitle { text-transform: uppercase; }
