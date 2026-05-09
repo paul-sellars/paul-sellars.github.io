@@ -8,8 +8,8 @@ permalink: /writing/
 
 <style>
   :root {
-    --background-color: rgb(225, 236, 235); /* Flexoki Blue 50 */
-    --text-color: rgb(52, 51, 49); /* Flexoki ui-2 */
+    --background-color: rgb(255, 252, 240); /* Flexoki bg */
+    --text-color: rgb(16, 15, 15); /* Flexoki tx */
   }
 
   /* 1. Background. */
