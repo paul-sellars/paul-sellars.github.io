@@ -4,7 +4,7 @@ title: Writing
 permalink: /writing/
 ---
 
-<!-- ======== Override styles from default theme. ======== -->
+<!-- ======= Override styles from default theme. ======= -->
 
 <style>
   :root {
@@ -44,7 +44,7 @@ permalink: /writing/
     color: var(--text-color);
     /* font-family: "IBM Plex Serif", serif; */
     font-weight: normal;
-    letter-spacing: 0.125ch;
+    letter-spacing: 0.05rem;
   }
 
   /* 6. Body specifics. */
@@ -73,7 +73,7 @@ permalink: /writing/
   }
 </style>
 
-<!-- ============ Page content begins here... ============ -->
+<!-- =========== Page content begins here... =========== -->
 
 In my own time (when not occupied with [the day job]({% link index.md %})) I like to write.
 
@@ -85,7 +85,7 @@ Watch this space for updates...
 
 *Last updated: Saturday, 9 May 2026.*
 
-<!-- ============== Page content ends here. ============== -->
+<!-- ============= Page content ends here. ============= -->
 
 <div class="writing-footer">
   <a href="{% link index.md %}">Paul Sellars</a>
