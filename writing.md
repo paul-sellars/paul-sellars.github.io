@@ -37,15 +37,14 @@ permalink: /writing/
 
   /* 5. Header specifics. */
   .site-header {
-    border-top: 1px dashed var(--text-color);
-    border-bottom: 1px dashed var(--text-color) !important;
+    border-top: 2px solid var(--text-color);
+    border-bottom: 1px dotted var(--text-color) !important;
   }
   .site-title, .site-title:visited {
     color: var(--text-color);
-    font-family: "IBM Plex Serif", serif;
+    /* font-family: "IBM Plex Serif", serif; */
     font-weight: normal;
     letter-spacing: 0.125ch;
-    text-transform: capitalize;
   }
 
   /* 6. Body specifics. */
@@ -55,7 +54,7 @@ permalink: /writing/
   .writing-footer { 
     margin-top: 5rem;
     padding: 2rem 0 4rem;
-    border-top: 1px dashed var(--text-color);
+    border-top: 1px dotted var(--text-color);
     color: var(--text-color);
     }
   .writing-footer a {
