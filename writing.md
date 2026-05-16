@@ -43,12 +43,13 @@ permalink: /writing/
   .site-title, .site-title:visited {
     color: var(--text-color);
     /* font-family: "IBM Plex Serif", serif; */
-    font-weight: normal;
+    font-weight: 400;
     letter-spacing: 0.05rem;
   }
 
   /* 6. Body specifics. */
   body, a, a:visited { color: var(--text-color); }
+  .post-title { font-weight: 500; }
 
   /* 7. Footer specifics. */
   .writing-footer { 

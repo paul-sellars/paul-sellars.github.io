@@ -128,7 +128,7 @@ a {
 .site-subtitle {
     font-family: $base-font-family;
     font-size: 0.475em; // Slightly increased ratio to improve tagline legibility.
-    font-weight: 600;
+    font-weight: 500;
     letter-spacing: 0.09ch;
     margin-top: 0.2em;
 }
@@ -150,7 +150,7 @@ a {
 .post-title {
     font-family: $heading-font-family;
     font-size: 2rem;
-    font-weight: bold;
+    font-weight: 500;
     letter-spacing: 0.0275ch;
     margin-bottom: 0.75rem;
 }
