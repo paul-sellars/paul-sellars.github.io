@@ -7,7 +7,7 @@ title: Typesetting
 
 Of course, books are no longer only printed on paper: more and more of us turn to ebooks for at least some of our reading, and careful **ebook formatting** is essential to ensure not only clean and attractive text, but also the standards compliance required to support e-reader devices of every kind.
 
-Combining custom software and powerful open source tools,[^1] I can offer a fast and efficient service tailored to your specific requirements, whether the final output is print, electronic, or both.
+Combining custom software and powerful open source tools,[^1] I can offer a fast and efficient service tailored to your requirements, whether the final output is print, electronic, or both.
 
 [Contact me]({% link contact.md %}) directly for a quote, or to request sample documents in PDF and EPUB formats.
 
