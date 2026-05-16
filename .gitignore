@@ -1,6 +1,7 @@
+*.swp
+.DS_Store
 _site
 .sass-cache
-.swp
 .jekyll-cache
 .jekyll-metadata
 vendor
