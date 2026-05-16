@@ -149,6 +149,7 @@ a {
 .post-title {
     font-family: $heading-font-family;
     font-size: 2rem;
+    font-weight: bold;
     letter-spacing: 0.0275ch;
 }
 
@@ -157,6 +158,7 @@ a {
 h2 {
     font-family: $heading-font-family;
     font-size: 1.5rem;
+    font-weight: bold;
     margin-top: $spacing-unit;
     letter-spacing: 0.0275ch;
 }
