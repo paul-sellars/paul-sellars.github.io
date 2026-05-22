@@ -17,6 +17,6 @@ For purely editorial jobs, I can be booked via Reedsy. Visit my [profile page](h
 
 <div class="external-badge-container">
 <a href="https://reedsy.com/paul-sellars" target="_blank">
-  <img src="https://assets-cdn.reedsy.com/images/reedsy-logo-dark.png" width="275" />
+  <img src="https://assets-cdn.reedsy.com/images/reedsy-profile-button.png" width="380" />
 </a>
 </div>
