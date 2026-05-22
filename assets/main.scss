@@ -76,6 +76,15 @@ a, a:visited {
         }
     }
 
+    // Mobile navigation: match borders and icons to the text color.
+    @media screen and (max-width: $on-mobile) {
+        border-color: var(--text-color);
+
+        .menu-icon > svg {
+            fill: var(--text-color);
+        }
+    }
+
     // Centered layout for screens above the mobile breakpoint.
     @media screen and (min-width: $on-mobile) {
         float: none;
@@ -215,6 +224,18 @@ h2 {
         // Swap the CSS variable values for dark mode.
         --text-color: #{$background-color};
         --background-color: #{$text-color};
+    }
+
+    // Mobile navigation menu in dark mode.
+    @media screen and (max-width: $on-mobile) {
+        .site-nav {
+            background-color: var(--background-color);
+            border-color: var(--text-color);
+
+            .menu-icon > svg {
+                fill: var(--text-color);
+            }
+        }
     }
 
     // For secondary dark mode colors, using Flexoki dark palette equivalents.
