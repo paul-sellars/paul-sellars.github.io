@@ -7,18 +7,10 @@ permalink: /writing/
 <!-- ======= Override styles from default theme. ======= -->
 
 <style>
-  :root {
-    --background-color: rgb(255, 252, 240); /* Flexoki bg */
-    --text-color: rgb(16, 15, 15); /* Flexoki tx */
-  }
-
-  /* 1. Background. */
-  body { background-color: var(--background-color) !important; }
-
-  /* 2. Hide unwanted global elements. */
+  /* 1. Hide unwanted global elements. */
   .site-nav, .site-logo, .site-subtitle, .site-footer { display: none !important; }
 
-  /* 3. Common layout. */
+  /* 2. Common layout. */
   .site-header .wrapper, .writing-footer {
     display: flex;
     flex-direction: column;
@@ -31,27 +23,24 @@ permalink: /writing/
   .site-title-group { margin: 0 !important; }
   .site-title { padding: 0 !important; }
 
-  /* 4. Common typography. */
+  /* 3. Common typography. */
   .writing-footer a, .footer-subtitle { text-transform: uppercase; }
   .writing-footer a { font-family: "EB Garamond", serif; text-decoration: none; !important; }
 
-  /* 5. Header specifics. */
+  /* 4. Header specifics. */
   .site-header {
     border-top: 2px solid var(--text-color);
     border-bottom: 1px dotted var(--text-color) !important;
   }
   .site-title, .site-title:visited {
-    color: var(--text-color);
     /* font-family: "IBM Plex Serif", serif; */
     font-weight: 400;
     letter-spacing: 0.05rem;
   }
 
-  /* 6. Body specifics. */
-  body, a, a:visited { color: var(--text-color); }
   .post-title { font-weight: 500; }
 
-  /* 7. Footer specifics. */
+  /* 5. Footer specifics. */
   .writing-footer { 
     margin-top: 5rem;
     padding: 2rem 0 4rem;
