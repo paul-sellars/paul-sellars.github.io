@@ -189,3 +189,75 @@ h2 {
     margin-top: $spacing-unit;
     text-align: center;
 }
+
+// Dark Mode adjustments.
+// ----------------------
+
+@media (prefers-color-scheme: dark) {
+    // Dark mode specific colors.
+    // Swap the existing text and background colors.
+    $dark-mode-text-color: $background-color; // Original light color becomes text in dark mode.
+    $dark-mode-background-color: $text-color; // Original dark color becomes background in dark mode.
+
+    // For secondary dark mode colors, using Flexoki dark palette equivalents.
+    $dark-mode-footer-bg: rgb(28, 27, 26); // Flexoki dark paper/bg-2
+    $dark-mode-secondary-text: rgb(224, 220, 207); // Flexoki dark tx-2
+
+    // Main body colors.
+    body {
+        background-color: $dark-mode-background-color;
+        color: $dark-mode-text-color;
+    }
+
+    // Link color.
+    a,
+    a:visited {
+        color: $dark-mode-text-color;
+    }
+
+    .site-title,
+    .site-title:visited,
+    .site-subtitle,
+    .site-nav .page-link {
+        color: $dark-mode-text-color;
+    }
+
+    .footnotes {
+        border-top-color: $dark-mode-text-color;
+    }
+
+    .site-header {
+        border-top-color: $dark-mode-text-color;
+        border-bottom-color: $dark-mode-text-color;
+    }
+
+    // Site logo filter (adjusted to match the cream text color).
+    .site-logo {
+        -webkit-filter: invert(100%) sepia(15%) brightness(103%);
+        filter: invert(100%) sepia(15%) brightness(103%);
+    }
+
+    // Site footer background.
+    .site-footer {
+        background-color: $dark-mode-footer-bg;
+    }
+
+    hr {
+        border-top-color: $dark-mode-text-color;
+    }
+
+    // Blockquotes.
+    blockquote {
+        color: $dark-mode-secondary-text;
+        border-left-color: $dark-mode-text-color;
+    }
+
+    // Code blocks (currently unused).
+    pre,
+    code {
+        background-color: $dark-mode-footer-bg;
+        border-color: $dark-mode-footer-bg;
+        color: $dark-mode-text-color; // Ensure code text is readable
+    }
+
+}
