@@ -136,6 +136,8 @@ a {
 .site-logo {
     height: 2em;
     width: auto;
+    -webkit-filter: invert(6%); // For Safari compatibility.
+    filter: invert(6%); // Harmonizes pure black with the $text-color (rgb(16, 15, 15)).
     margin-bottom: 0.125em; // Add bottom margin for *mobile*.
 
     @media screen and (min-width: $on-mobile) {
