@@ -221,9 +221,9 @@ h2 {
 
 @media (prefers-color-scheme: dark) {
     :root {
-        // Swap the CSS variable values for dark mode.
-        --text-color: #{$background-color};
-        --background-color: #{$text-color};
+        // Change the CSS variable values for dark mode.
+        --text-color: rgb(206, 205, 195); // Flexoki dark tx
+        --background-color: rgb(16, 15, 15); // Flexoki dark bg
     }
 
     // Mobile navigation menu in dark mode.
@@ -240,12 +240,12 @@ h2 {
 
     // For secondary dark mode colors, using Flexoki dark palette equivalents.
     $dark-mode-footer-bg: rgb(28, 27, 26); // Flexoki dark paper/bg-2
-    $dark-mode-secondary-text: rgb(224, 220, 207); // Flexoki dark tx-2
+    $dark-mode-secondary-text: rgb(135, 133, 128); // Flexoki dark tx-2
 
-    // Site logo filter (adjusted to match the cream text color).
+    // Site logo filter (adjusted to match the muted dark-tx color).
     .site-logo {
-        -webkit-filter: invert(100%) sepia(15%) brightness(103%);
-        filter: invert(100%) sepia(15%) brightness(103%);
+        -webkit-filter: invert(86%) sepia(8%) saturate(254%) hue-rotate(5deg) brightness(92%) contrast(89%);
+        filter: invert(86%) sepia(8%) saturate(254%) hue-rotate(5deg) brightness(92%) contrast(89%);
     }
 
     // Site footer background.
@@ -255,8 +255,14 @@ h2 {
 
     // Blockquotes.
     blockquote {
-        color: $dark-mode-secondary-text;
-        border-left-color: var(--text-color);
+        color: $dark-mode-secondary-text; 
+        border-left-color: $dark-mode-secondary-text;
+    }
+
+    // Soften borders and horizontal rules in dark mode.
+    hr, .footnotes, .site-header, .site-title-group {
+        border-color: $dark-mode-secondary-text !important;
+        border-top-color: $dark-mode-secondary-text !important;
     }
 
     // Code blocks (currently unused).
