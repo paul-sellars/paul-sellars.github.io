@@ -210,7 +210,7 @@ h2 {
   text-transform: uppercase;
 }
 
-// Custom container for third-party badges (e.g., Reedsy).
+// Custom container for third-party badges (e.g. Reedsy).
 .external-badge-container {
     margin-top: $spacing-unit;
     text-align: center;
@@ -222,9 +222,9 @@ h2 {
 @media (prefers-color-scheme: dark) {
     :root {
         // Change the CSS variable values for dark mode.
-        --text-color: #839496; // Solarized base0
-        --background-color: #002b36; // Solarized base03
-        --link-color: #268bd2; // Solarized blue
+        --text-color: rgb(206, 205, 195); // Flexoki UI-2
+        --background-color: rgb(16, 15, 15); // Flexoki Black
+        --link-color: rgb(58, 169, 159); // Flexoki Cyan
     }
 
     // Mobile navigation menu in dark mode.
@@ -239,14 +239,14 @@ h2 {
         }
     }
 
-    // For secondary dark mode colors, using Solarized dark palette equivalents.
-    $dark-mode-footer-bg: #073642; // Solarized base02
-    $dark-mode-secondary-text: #586e75; // Solarized base01
+    // For secondary dark mode colors, using Flexoki palette equivalents.
+    $dark-mode-footer-bg: rgb(28, 27, 26); // Flexoki UI-1
+    $dark-mode-secondary-text: rgb(87, 86, 83); // Flexoki Base-300
 
-    // Site logo filter (adjusted to match Solarized palette).
-    .site-logo { /* Transforms a near-black logo to Solarized base0 (#839496) */
-        -webkit-filter: invert(59%) sepia(11%) saturate(542%) hue-rotate(160deg) brightness(90%) contrast(89%);
-        filter: invert(59%) sepia(11%) saturate(542%) hue-rotate(160deg) brightness(90%) contrast(89%);
+    // Site logo filter (adjusted to match Flexoki UI-2 text color).
+    .site-logo { /* Transforms a near-black logo to Flexoki UI-2 (#CECDC3). */
+        -webkit-filter: invert(89%) sepia(5%) saturate(163%) hue-rotate(15deg) brightness(93%) contrast(89%);
+        filter: invert(89%) sepia(5%) saturate(163%) hue-rotate(15deg) brightness(93%) contrast(89%);
     }
 
     // Site footer background.
