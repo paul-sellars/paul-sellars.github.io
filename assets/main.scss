@@ -4,9 +4,9 @@
 @import url('https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400..800;1,400..800&family=IBM+Plex+Sans:ital,wght@0,100..700;1,100..700&family=IBM+Plex+Serif:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap');
 
 // Colours.
-$text-color: rgb(16, 15, 15); // Flexoki tx.
-$background-color: rgb(255, 252, 240); // Flexoki bg.
-$link-color: rgb(36, 131, 123); // Flexoki cyan.
+$text-color: rgb(16, 15, 15); // Flexoki tx
+$background-color: rgb(255, 252, 240); // Flexoki bg
+$link-color: rgb(36, 131, 123); // Flexoki cyan
 
 // Expose colours as CSS variables for page-specific overrides in writing.md.
 :root {
@@ -201,7 +201,7 @@ h2 {
 }
 
 .site-footer {
-    background-color: rgb(242, 240, 229); // Flexoki bg-2.
+    background-color: rgb(242, 240, 229); // Flexoki bg-2
     font-size: 1rem;
 }
 
@@ -243,7 +243,7 @@ h2 {
     $dark-mode-footer-bg: #073642; // Solarized base02
     $dark-mode-secondary-text: #586e75; // Solarized base01
 
-    // Site logo filter (adjusted to match the muted dark-tx color).
+    // Site logo filter (adjusted to match Solarized palette).
     .site-logo {
         -webkit-filter: invert(62%) sepia(10%) saturate(634%) hue-rotate(141deg) brightness(91%) contrast(87%);
         filter: invert(62%) sepia(10%) saturate(634%) hue-rotate(141deg) brightness(91%) contrast(87%);
