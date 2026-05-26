@@ -25,7 +25,7 @@ permalink: /writing/
 
   /* 3. Common typography. */
   .writing-footer a, .footer-subtitle { text-transform: uppercase; }
-  .writing-footer a { font-family: "EB Garamond", serif; text-decoration: none; !important; }
+  .writing-footer a { font-family: "EB Garamond", serif; text-decoration: none !important; color: var(--text-color); }
 
   /* 4. Header specifics. */
   .site-header {
