@@ -6,13 +6,13 @@
 // Colours.
 $text-color: rgb(16, 15, 15); // Flexoki tx.
 $background-color: rgb(255, 252, 240); // Flexoki bg.
-$brand-color: $text-color; // Used for links.
-$link-color: $brand-color;
+$link-color: rgb(36, 131, 123); // Flexoki cyan.
 
 // Expose colours as CSS variables for page-specific overrides in writing.md.
 :root {
     --text-color: #{$text-color};
     --background-color: #{$background-color};
+    --link-color: #{$link-color};
 }
 
 // Type.
@@ -40,7 +40,7 @@ body {
 
 // Global link styling for body text.
 a, a:visited {
-    color: var(--text-color);
+    color: var(--link-color);
     text-decoration: underline;
     text-underline-offset: 0.12em;
     transition: color 0.2s ease;
@@ -222,8 +222,9 @@ h2 {
 @media (prefers-color-scheme: dark) {
     :root {
         // Change the CSS variable values for dark mode.
-        --text-color: rgb(206, 205, 195); // Flexoki dark tx
-        --background-color: rgb(16, 15, 15); // Flexoki dark bg
+        --text-color: #839496; // Solarized base0
+        --background-color: #002b36; // Solarized base03
+        --link-color: #268bd2; // Solarized blue
     }
 
     // Mobile navigation menu in dark mode.
@@ -238,14 +239,14 @@ h2 {
         }
     }
 
-    // For secondary dark mode colors, using Flexoki dark palette equivalents.
-    $dark-mode-footer-bg: rgb(28, 27, 26); // Flexoki dark paper/bg-2
-    $dark-mode-secondary-text: rgb(135, 133, 128); // Flexoki dark tx-2
+    // For secondary dark mode colors, using Solarized dark palette equivalents.
+    $dark-mode-footer-bg: #073642; // Solarized base02
+    $dark-mode-secondary-text: #586e75; // Solarized base01
 
     // Site logo filter (adjusted to match the muted dark-tx color).
     .site-logo {
-        -webkit-filter: invert(86%) sepia(8%) saturate(254%) hue-rotate(5deg) brightness(92%) contrast(89%);
-        filter: invert(86%) sepia(8%) saturate(254%) hue-rotate(5deg) brightness(92%) contrast(89%);
+        -webkit-filter: invert(62%) sepia(10%) saturate(634%) hue-rotate(141deg) brightness(91%) contrast(87%);
+        filter: invert(62%) sepia(10%) saturate(634%) hue-rotate(141deg) brightness(91%) contrast(87%);
     }
 
     // Site footer background.
