@@ -244,9 +244,9 @@ h2 {
     $dark-mode-secondary-text: #586e75; // Solarized base01
 
     // Site logo filter (adjusted to match Solarized palette).
-    .site-logo {
-        -webkit-filter: invert(62%) sepia(10%) saturate(634%) hue-rotate(141deg) brightness(91%) contrast(87%);
-        filter: invert(62%) sepia(10%) saturate(634%) hue-rotate(141deg) brightness(91%) contrast(87%);
+    .site-logo { /* Transforms a near-black logo to Solarized base0 (#839496) */
+        -webkit-filter: invert(59%) sepia(11%) saturate(542%) hue-rotate(160deg) brightness(90%) contrast(89%);
+        filter: invert(59%) sepia(11%) saturate(542%) hue-rotate(160deg) brightness(90%) contrast(89%);
     }
 
     // Site footer background.
