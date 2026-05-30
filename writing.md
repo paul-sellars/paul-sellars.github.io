@@ -69,11 +69,9 @@ In my own time (when not occupied with [the day job]({% link index.md %})) I lik
 
 While I periodically struggle with something perpetually unfinished and theoretically novel length, more often than not my focus is on short stories.
 
-Currently I don’t have any stories out on submission (although a number are awaiting revision and resubmission).
+Currently I have **one** story out on submission, and my fingers crossed.
 
-Watch this space for updates...
-
-*Last updated: Saturday, 9 May 2026.*
+*Last updated: Saturday, 30 May 2026.*
 
 <!-- ============= Page content ends here. ============= -->
 
