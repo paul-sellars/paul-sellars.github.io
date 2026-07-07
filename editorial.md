@@ -13,7 +13,7 @@ In both cases, consistency is key. In addition to correcting errors, I’ll work
 
 ## Hire me on Reedsy
 
-For purely editorial jobs, I can be booked via [Reedsy]({% link reedsy.md %}). Visit my [profile page](https://reedsy.com/paul-sellars) to browse my portfolio and read testimonials from satisfied customers:
+For purely editorial jobs, I can be booked via Reedsy. Visit my [profile page](https://reedsy.com/paul-sellars) to browse my portfolio and read testimonials from satisfied customers:
 
 <div class="external-badge-container">
 <a href="https://reedsy.com/paul-sellars" target="_blank">
