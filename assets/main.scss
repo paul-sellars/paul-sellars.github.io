@@ -1,6 +1,6 @@
 ---
 ---
-// 1. Sass Variables (These are allowed before @use for configuration).
+// 1. Sass Variables.
 // Colours.
 $text-color: rgb(16, 15, 15); // Flexoki tx
 $background-color: rgb(255, 252, 240); // Flexoki bg
@@ -17,16 +17,8 @@ $content-width: 42rem;
 $spacing-unit: 2.25rem;
 $on-mobile: 37.5em; // 600px / 16px default = 37.5em
 
-// 2. Load the theme (This must come before any CSS style rules).
-@use "minima" with (
-  $text-color: $text-color,
-  $background-color: $background-color,
-  $base-font-family: $base-font-family,
-  $base-font-size: $base-font-size,
-  $base-line-height: $base-line-height,
-  $content-width: $content-width,
-  $spacing-unit: $spacing-unit
-);
+// 2. Load the theme using the legacy @import rule (for GitHub compatibility).
+@import "minima";
 
 // 3. All standard CSS and style rules go below.
 // Google Fonts.
