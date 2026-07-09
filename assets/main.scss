@@ -1,19 +1,10 @@
 ---
 ---
-// Google Fonts.
-@import url('https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400..800;1,400..800&family=IBM+Plex+Sans:ital,wght@0,100..700;1,100..700&family=IBM+Plex+Serif:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap');
-
+// 1. Sass Variables (These are allowed before @use for configuration).
 // Colours.
 $text-color: rgb(16, 15, 15); // Flexoki tx
 $background-color: rgb(255, 252, 240); // Flexoki bg
 $link-color: rgb(36, 131, 123); // Flexoki cyan
-
-// Expose colours as CSS variables for page-specific overrides in writing.md.
-:root {
-    --text-color: #{$text-color};
-    --background-color: #{$background-color};
-    --link-color: #{$link-color};
-}
 
 // Type.
 $base-font-family: "IBM Plex Sans", sans-serif;
@@ -26,8 +17,27 @@ $content-width: 42rem;
 $spacing-unit: 2.25rem;
 $on-mobile: 37.5em; // 600px / 16px default = 37.5em
 
-// Import the theme styles.
-@import "minima";
+// 2. Load the theme (This must come before any CSS style rules).
+@use "minima" with (
+  $text-color: $text-color,
+  $background-color: $background-color,
+  $base-font-family: $base-font-family,
+  $base-font-size: $base-font-size,
+  $base-line-height: $base-line-height,
+  $content-width: $content-width,
+  $spacing-unit: $spacing-unit
+);
+
+// 3. All standard CSS and style rules go below.
+// Google Fonts.
+@import url('https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400..800;1,400..800&family=IBM+Plex+Sans:ital,wght@0,100..700;1,100..700&family=IBM+Plex+Serif:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap');
+
+// Expose colours as CSS variables for page-specific overrides in writing.md.
+:root {
+    --text-color: #{$text-color};
+    --background-color: #{$background-color};
+    --link-color: #{$link-color};
+}
 
 // Custom CSS.
 // -----------
@@ -54,7 +64,7 @@ a, a:visited {
 .footnotes {
     border-top: 1px solid var(--text-color);
     margin-top: $spacing-unit;
-    padding-top: $spacing-unit / 2;
+    padding-top: calc($spacing-unit / 2);
     font-size: 0.9em;
 
     hr {
@@ -65,8 +75,8 @@ a, a:visited {
 // Navigation styling and centring.
 .site-nav {
     font-size: 1.1rem; // Smaller relative size for nav links.
-    margin-top: $spacing-unit / 4;
-    margin-bottom: $spacing-unit / 2;
+    margin-top: calc($spacing-unit / 4);
+    margin-bottom: calc($spacing-unit / 2);
 
     .page-link {
         text-decoration: none;
@@ -105,7 +115,7 @@ a, a:visited {
 .site-header {
     border-top: 5px solid var(--text-color);
     border-bottom: 1px solid var(--text-color);
-    padding-top: $spacing-unit / 2;
+    padding-top: calc($spacing-unit / 2);
 }
 
 .site-header .wrapper {
@@ -118,7 +128,7 @@ a, a:visited {
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin-bottom: $spacing-unit / 2; // Mobile vertical space. Matches the .site-nav desktop margin.
+    margin-bottom: calc($spacing-unit / 2); // Mobile vertical space. Matches the .site-nav desktop margin.
 
     @media screen and (min-width: $on-mobile) {
         margin-bottom: 0; // Reset on desktop so the .site-nav provides the bottom spacing.
@@ -127,7 +137,7 @@ a, a:visited {
 
 .site-title {
     line-height: 1.1;
-    padding: ($spacing-unit / 4) 0;
+    padding: calc($spacing-unit / 4) 0;
     // Mobile-first: stack logo and text vertically.
     display: flex;
     flex-direction: column;
@@ -142,7 +152,7 @@ a, a:visited {
 
     @media screen and (min-width: $on-mobile) {
         flex-direction: row; // Revert to side-by-side for desktop
-        padding-bottom: $spacing-unit / 8; // Pull the navigation closer.
+        padding-bottom: calc($spacing-unit / 8); // Pull the navigation closer.
     }
 
     &:hover { text-decoration: none; }

@@ -61,3 +61,11 @@ header_pages:
 #   - vendor/cache/
 #   - vendor/gems/
 #   - vendor/ruby/
+
+# Silence (at least some) deprecation warnings.
+sass:
+  quiet_deps: true
+
+# Disable feed (locally).
+feed:
+  disable_in_development: true
