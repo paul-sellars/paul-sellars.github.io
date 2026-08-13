@@ -9,6 +9,10 @@ Whether you're self-publishing independently or working with an established hous
 
 From sentence-level text revision to immaculate book design and layout, I bring exacting focus to the smallest details, ensuring every page looks as good as it reads.
 
-[Drop me a line]({% link contact.md %}) and tell me about your project, and I'll take you through the options.
+<div class="cta-box">
+  <a href="{% link contact.md %}" class="btn-cta">Get a quote</a>
+</div>
+
+Tell me about your project, discuss the options, and get a competitive quote to suit your budget.
 
 [^1]: Bloomsbury, Canelo, HarperCollins, Penguin, etc.

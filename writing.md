@@ -42,7 +42,7 @@ permalink: /writing/
 
   /* 5. Footer specifics. */
   .writing-footer { 
-    margin-top: 5rem;
+    margin-top: 2.25rem;
     padding: 2rem 0 4rem;
     border-top: 1px dotted var(--text-color);
     color: var(--text-color);
@@ -71,7 +71,9 @@ While I periodically struggle with something perpetually unfinished and theoreti
 
 Currently I have **one** story out on submission, and my fingers crossed.
 
-*Last updated: Saturday, 11 July 2026.*
+<div class="cta-box">
+  <a href="https://linktr.ee/paulsellars" class="btn-cta">Follow me</a>
+</div>
 
 <!-- ========= Page content ends here. ========= -->
 

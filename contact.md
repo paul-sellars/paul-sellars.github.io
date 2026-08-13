@@ -3,10 +3,60 @@ layout: page
 title: Contact
 ---
 
-The easiest way to contact me about editorial work is via [Reedsy](https://reedsy.com/paul-sellars).
+Whatever your budget, whether you're polishing a manuscript for submission or finalising a book for publication, I'm here to help.
 
-For typesetting and other enquiries I have a Gmail address, the first part of which is my forename followed by my surname, with a dot in between.[^1]
+## Editorial
 
-For social media and other links, see [linktr.ee/paulsellars](https://linktr.ee/paulsellars).
+Purely editorial jobs (copyediting, proofreading, etc.) are booked via **Reedsy**, guaranteeing clear contracts, sample edits before you commit, and secure payment protection.
 
-[^1]: Sorry: giving you this puzzle to solve is the simplest way to ensure you're human.
+[Request Editorial Services on Reedsy](https://reedsy.com/paul-sellars).
+
+## Typesetting & Ebook Formatting
+
+I handle all interior design, print typesetting, and ebook formatting jobs directly. To receive a custom quote and suggested timeline, please enter your project details below:
+
+<form action="https://formspree.io/f/mzepvbvb" method="POST" style="margin-top: 1.5em; margin-bottom: 2em;">
+
+  <p>
+    <label for="name">Your Name *</label><br>
+    <input type="text" id="name" name="Name" required placeholder="e.g. John Smith" style="width: 100%; max-width: 500px; padding: 8px; margin-top: 4px;">
+  </p>
+
+  <p>
+    <label for="email">Email Address *</label><br>
+    <input type="email" id="email" name="Email" required placeholder="john@example.com" style="width: 100%; max-width: 500px; padding: 8px; margin-top: 4px;">
+  </p>
+
+  <p>
+    <label for="service">Service Required *</label><br>
+    <select id="service" name="Service" required style="width: 100%; max-width: 500px; padding: 8px; margin-top: 4px;">
+      <option value="" disabled selected>Select a service...</option>
+      <option value="Print Typesetting & Interior Layout">Print Typesetting & Interior Layout</option>
+      <option value="Ebook Formatting (EPUB)">Ebook Formatting (EPUB)</option>
+      <option value="Print + Ebook Package">Print + Ebook Package</option>
+      <option value="Other Enquiry">Other Enquiry</option>
+    </select>
+  </p>
+
+  <p>
+    <label for="word_count">Word Count & Genre *</label><br>
+    <input type="text" id="word_count" name="Word Count & Genre" required placeholder="e.g. 75,000 words, Historical Fiction" style="width: 100%; max-width: 500px; padding: 8px; margin-top: 4px;">
+  </p>
+
+  <p>
+    <label for="trim_size">Trim Size / Target Printer</label><br>
+    <input type="text" id="trim_size" name="Trim Size & Printer" placeholder="e.g. 6x9 on KDP / IngramSpark (optional)" style="width: 100%; max-width: 500px; padding: 8px; margin-top: 4px;">
+  </p>
+
+  <p>
+    <label for="details">Project Details & Special Requirements</label><br>
+    <textarea id="details" name="Project Details" rows="5" placeholder="Mention footnotes, images, tables, target deadlines, or any questions." style="width: 100%; max-width: 500px; padding: 8px; margin-top: 4px;"></textarea>
+  </p>
+
+  <!-- Spam protection honeypot field -->
+  <input type="text" name="_gotcha" style="display:none">
+
+  <p>
+    <button type="submit" class="btn-cta">Get a quote</button>
+  </p>
+</form>

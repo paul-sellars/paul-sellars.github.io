@@ -53,6 +53,46 @@ a, a:visited {
     }
 }
 
+hr {
+    border-top: 1px solid var(--text-color);
+    margin-top: $spacing-unit;
+}
+
+/* Custom 'Call to action' button styles. */
+
+/* 1. Wrapper handles centering and top/bottom spacing. */
+.cta-box {
+  text-align: center;
+  margin-top: 2.25rem;     /* Reliable top spacing. */
+  margin-bottom: 2.25rem;  /* Reliable bottom spacing. */
+}
+
+/* 2. Button handles pure visual styling. */
+.btn-cta {
+  display: inline-block;
+  padding: 0.75rem 1.5rem;
+  font-size: 1.05rem;
+  font-weight: 600;
+  color: #ffffff !important;         /* Text color. */
+  background-color: $link-color;     /* Primary button color. */
+  border-radius: 4px;                /* Soft rounded corners. */
+  text-decoration: none !important;  /* Removes standard link underline. */
+  transition: background-color 0.2s ease-in-out, transform 0.1s ease-in-out;
+}
+
+.btn-cta:hover, 
+.btn-cta:focus {
+  background-color: rgb(58, 169, 159);       /* Lighter shade on hover. */
+  text-decoration: none !important;
+  transform: translateY(-1px);      /* Subtle lift effect. */
+}
+
+// Contact form button.
+button {
+    border-style: solid;
+    border-width: 0;
+}
+
 // Footnotes section styling.
 .footnotes {
     border-top: 1px solid var(--text-color);
