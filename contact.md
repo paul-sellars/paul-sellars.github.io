@@ -7,7 +7,7 @@ Whatever your budget, whether you're polishing a manuscript for submission or fi
 
 ## Editorial
 
-Purely editorial jobs (copyediting, proofreading, etc.) are booked via **Reedsy**, guaranteeing clear contracts, sample edits before you commit, and secure payment protection.
+Purely editorial jobs (copyediting, proofreading, etc.) can be booked via **Reedsy**, guaranteeing clear contracts, sample edits before you commit, and secure payment protection.
 
 [Request Editorial Services on Reedsy](https://reedsy.com/paul-sellars).
 
