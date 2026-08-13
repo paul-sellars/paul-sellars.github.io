@@ -4,7 +4,7 @@ title: Writing
 permalink: /writing/
 ---
 
-<!-- ======= Override styles from default theme. ======= -->
+<!-- === Override styles from default theme. === -->
 
 <style>
   /* 1. Hide unwanted global elements. */
@@ -34,7 +34,7 @@ permalink: /writing/
   }
   .site-title, .site-title:visited {
     /* font-family: "IBM Plex Serif", serif; */
-    font-weight: 400;
+    font-weight: 500;
     letter-spacing: 0.05rem;
   }
 
@@ -63,9 +63,9 @@ permalink: /writing/
   }
 </style>
 
-<!-- =========== Page content begins here... =========== -->
+<!-- ======= Page content begins here... ======= -->
 
-In my own time -- when I'm when not occupied with [the day job]({% link index.md %}) -- I like to write.
+In my own time -- when not occupied with [the day job]({% link index.md %}) -- I like to write.
 
 While I periodically struggle with something perpetually unfinished and theoretically novel length, more often than not my focus is on short stories.
 
@@ -73,7 +73,7 @@ Currently I have **one** story out on submission, and my fingers crossed.
 
 *Last updated: Saturday, 11 July 2026.*
 
-<!-- ============= Page content ends here. ============= -->
+<!-- ========= Page content ends here. ========= -->
 
 <div class="writing-footer">
   <a href="{% link index.md %}">Paul Sellars</a>

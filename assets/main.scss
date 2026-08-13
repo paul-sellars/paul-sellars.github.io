@@ -203,6 +203,16 @@ h2 {
     letter-spacing: 0.0275ch;
 }
 
+// Style blockquotes, overriding Minima defaults.
+.post-content blockquote {
+    font-family: $base-font-family;
+    font-size: 1.2rem;
+    font-style: normal;
+    margin-top: $spacing-unit;
+    margin-bottom: $spacing-unit;
+}
+
+
 .site-footer {
     background-color: rgb(242, 240, 229); // Flexoki bg-2
     font-size: 1rem;
@@ -259,7 +269,6 @@ h2 {
 
     // Blockquotes.
     blockquote {
-        color: $dark-mode-secondary-text; 
         border-left-color: $dark-mode-secondary-text;
     }
 

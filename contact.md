@@ -9,4 +9,4 @@ For typesetting and other enquiries I have a Gmail address, the first part of wh
 
 For social media and other links, see [linktr.ee/paulsellars](https://linktr.ee/paulsellars).
 
-[^1]: My apologies: giving you this puzzle to solve is the simplest way to ensure you're human.
+[^1]: Sorry: giving you this puzzle to solve is the simplest way to ensure you're human.

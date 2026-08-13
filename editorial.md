@@ -3,9 +3,9 @@ layout: page
 title: Editorial
 ---
 
-Copyediting and proofreading have traditionally been distinct parts of the publishing process, although the emergence of digital workflows has led to some overlap.
+Copyediting and proofreading have traditionally been distinct parts of the publishing process, although with the emergence of digital workflows there has begun to be some overlap.
 
-**Copyediting** comes first and involves checks for consistency and clarity -- of language (spelling, punctuation, style), but also in the use of structural elements (chapter and section headings, lists, blockquotes).
+**Copyediting** comes first and involves checks for consistency and clarity -- of language (spelling, punctuation, style), but also in the use of structural elements (chapter and section headings, tables, blockquotes).
 
 **Proofreading** is the final pass and aims to catch any remaining errors or deviations. A copyedit might include (careful, sympathetic) rewording of the author’s text; a proofread would usually be limited to smaller corrections.
 
@@ -13,7 +13,7 @@ In both cases, consistency is key. In addition to correcting errors, I’ll work
 
 ## Hire me on Reedsy
 
-For purely editorial jobs, I can be booked via Reedsy. Visit my [profile page](https://reedsy.com/paul-sellars) to browse my portfolio and read testimonials from satisfied customers:
+For purely editorial jobs, I can be booked via Reedsy. Visit my [profile page](https://reedsy.com/paul-sellars) there to browse my portfolio and read testimonials from satisfied customers.
 
 <div class="external-badge-container">
 <a href="https://reedsy.com/paul-sellars" target="_blank">
