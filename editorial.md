@@ -3,7 +3,7 @@ layout: page
 title: Editorial
 ---
 
-Copyediting and proofreading have traditionally been distinct parts of the publishing process, although with the emergence of digital workflows there has begun to be some overlap.
+Copyediting and proofreading have traditionally been distinct parts of the publishing process, although the emergence of digital workflows has led to some overlap.
 
 **Copyediting** comes first and involves checks for consistency and clarity -- of language (spelling, punctuation, style), but also in the use of structural elements (chapter and section headings, tables, blockquotes).
 
