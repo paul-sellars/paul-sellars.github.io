@@ -69,9 +69,9 @@ In my own time -- when not occupied with [the day job]({% link index.md %}) -- I
 
 While I periodically struggle with something perpetually unfinished and theoretically novel length, more often than not my focus is on short stories.
 
-Currently I have **two** stories out on submission, and my fingers crossed.
+Currently I have just **one** story out on submission, and my fingers crossed.
 
-(Updated: Monday, 2 November 2026.)
+(Updated: Thursday, 5 November 2026.)
 
 <div class="cta-box">
   <a href="https://linktr.ee/paulsellars" class="btn-cta">Follow me</a>
