@@ -7,7 +7,7 @@ permalink: /writing/
 <!-- === Override styles from default theme. === -->
 
 <style>
-  /* 1. Hide unwanted global elements. */
+/* 1. Hide unwanted global elements. */
   .site-nav, .site-logo, .site-subtitle, .site-footer { display: none !important; }
 
   /* 2. Common layout. */
